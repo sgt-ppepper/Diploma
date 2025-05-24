@@ -30,11 +30,14 @@ Each method is visualized across multiple examples, allowing in-depth analysis o
 
 ## 📊 Model Training Results
 
-Below is the result of training the YOLOv11s model, including accuracy metrics visualized as learning curves:
+Below is the result of training the YOLOv11s model, including validation accuracy metrics and productivity tests:
 
 ![Training Results](results/gen_metrics.png)
+Training Results
 ![Training Results for every class](results/class_metrics.png)
+Training Results for every class
 ![Video Processing Results](results/prod.png)
+Video Processing Results
 
 ---
 
@@ -44,7 +47,7 @@ Each XAI method was applied to selected frames to visualize the interpretability
 
 - **EigenCAM**:
   
-  ![EigenCAM Example](results/cam.png)
+  ![EigenCAM Example](results/cam_res.png)
 
 - **LIME**:
 

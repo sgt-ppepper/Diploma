@@ -32,12 +32,14 @@ Each method is visualized across multiple examples, allowing in-depth analysis o
 
 Below is the result of training the YOLOv11s model, including validation accuracy metrics and productivity tests:
 
+- Training Results
 ![Training Results](results/gen_metrics.png)
-Training Results
+
+- Training Results for every class
 ![Training Results for every class](results/class_metrics.png)
-Training Results for every class
+
+- Video Processing Results
 ![Video Processing Results](results/prod.png)
-Video Processing Results
 
 ---
 
@@ -61,14 +63,7 @@ Each XAI method was applied to selected frames to visualize the interpretability
 
 ## 📌 Repository Structure
 
-├── Interface/ # Interactive interface
-├── EigenCAM.py # EigenCAM implementation
-├── LIME.py # LIME implementation
-├── SHAP.py # SHAP implementation
-├── Yolo11s.ipynb # YOLOv11s training notebook
-├── XAI_experiments.ipynb # Experiments with XAI methods
-├── Productivity_tests.ipynb # Model testing and comparison
-└── README.md # Project documentation
+![Repository Structure](results/structure.png)
 
 ---
 
